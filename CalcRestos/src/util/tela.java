@@ -1,4 +1,4 @@
-package br.calcula.visao;
+package util;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -14,7 +14,7 @@ import java.awt.Insets;
 import javax.swing.SwingConstants;
 
 
-public class TelaInicialVisao {
+public class tela {
 	
 	
 	private JFrame frmCalculadoraDeRestos = new JFrame();
@@ -25,7 +25,7 @@ public class TelaInicialVisao {
 	private JLabel label = new JLabel("");
 	
 	
-	public TelaInicialVisao(){	
+	public tela(){	
 		
 	GridBagConstraints c = new GridBagConstraints();
 	GridBagConstraints d = new GridBagConstraints();

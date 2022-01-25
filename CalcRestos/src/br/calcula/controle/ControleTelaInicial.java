@@ -30,17 +30,15 @@ public class ControleTelaInicial {
 				double aDouble = Double.parseDouble(tvi.getTextField().getText());
 				double aDouble2 = Double.parseDouble(tvi.getTextField_1().getText());
 				String aux1="";
-				String aux2=String.format(aux1, c.calcularResto(aDouble, aDouble2));
 				
-				tvi.getLabel().setText(String.format(aux1, c.calcularResto(aDouble, aDouble2)));
-				
-				System.out.println("valores do textfield" + aux2);
+				aux1= String.format("2.f", c.calcularResto(aDouble, aDouble2));
+				tvi.getPanel().add(tvi.getLabel(), aux1);
 			
 				
 			}
 			
 		});
 		
-	}//		m.getPessoa().setCpf(vlm.getTextField().getText());
+	}
 
 }

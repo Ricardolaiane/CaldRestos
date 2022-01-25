@@ -32,9 +32,8 @@ public class Calculos {
 
 
 	public double calcularResto(double n1, double n2) {
-		// double resultado = n1/n2;
 	     double  resto = n1%n2; 
-	     System.out.println("valor do calculo" + resto);
+	     System.out.println("valor do calculo:" + resto);
 	     return resto;
 	     
 	     
